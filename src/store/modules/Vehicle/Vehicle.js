@@ -1,7 +1,7 @@
 const Vehicle = {
 	state: {
 		data: {
-			/*engine: false,
+			engine: false,
 			door: false,
 			speed: 0,
 			rpm: 0,
@@ -10,12 +10,12 @@ const Vehicle = {
 			fuelRate: 0,
 			fuelRateCalc: 0,
 			fuelSum: 0,
-			km: 101,*/
+			km: 101,
 		},
 		soundOpen: false,
 		soundClose: false,
 		penaltyList: [
-			/*{
+			{
 				vehicleId: 100,
 				ownerId: 7,
 				title: "Ruiner",
@@ -34,7 +34,7 @@ const Vehicle = {
 				vehiclePrice: 100000,
 				reason: "tax",
 				hours: 100,
-			},*/
+			},
 		],
 	},
 	mutations: {

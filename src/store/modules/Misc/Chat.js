@@ -1,7 +1,7 @@
 const Chat = {
 	state: {
 		dataChat: [
-			/*
+			
 			{name:'name',tag:0,playerId:0,msg:'test msg',value:0},
 			{name:'name',tag:1,playerId:0,msg:'test msg',value:0},
 			{name:'name',tag:2,playerId:0,msg:'test msg',value:0},
@@ -20,7 +20,7 @@ const Chat = {
 			{name:'name',tag:3,playerId:0,msg:'test msg',value:0},
 			{name:'name',tag:4,playerId:0,msg:'test msg',value:0},
 			{name:'name',tag:4,playerId:0,msg:'test msg',value:1},
-			*/
+			
 		],
 		active: false,
 		show: false,

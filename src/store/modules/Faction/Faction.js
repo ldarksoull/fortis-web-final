@@ -435,7 +435,7 @@ const factionSettings = {
         },
         onBoardComputer: {},
         storageHistory: [
-            /*{ title:"Тайзер", count: 11, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "взял"},
+            { title:"Тайзер", count: 11, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "взял"},
         { title:"Тайзер", count: 11, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "взял"},
         { title:"Тайзер", count: 11, date: "2020-01-14 20:52:56", name: "Michael Rutio", type: "взял"},
         { title:"Тайзер", count: 11, date: "2020-01-14 20:52:56", name: "Michael Rutio", type: "взял"},
@@ -444,10 +444,10 @@ const factionSettings = {
         { title:"Тайзер", count: 11, date: "2020-01-14 20:52:56", name: "Michael Rutio", type: "положил"},
         { title:"Тайзер", count: 11, date: "2020-01-14 20:52:56", name: "Michael Rutio", type: "положил"},
         { title:"Тайзер", count: 11, date: "2020-01-14 20:52:56", name: "Michael Rutio", type: "положил"},
-        { title:"Тайзер", count: 11, date: "2020-01-14 20:52:56", name: "Michael Rutio", type: "положил"},*/
+        { title:"Тайзер", count: 11, date: "2020-01-14 20:52:56", name: "Michael Rutio", type: "положил"},
         ],
         moneyHistory: [
-            /*{reason:"test reason", value: 11000, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "take"},
+            {reason:"test reason", value: 11000, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "take"},
       {reason:"test reason", value: 110000, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "take"},
       {reason:"test reason", value: 1100000, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "take"},
       {reason:"test reason", value: 11, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "take"},
@@ -456,34 +456,34 @@ const factionSettings = {
       {reason:"test reason", value: 11, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "put"},
       {reason:"test reason", value: 11, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "put"},
       {reason:"test reason", value: 11, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "put"},
-      {reason:"test reason", value: 11, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "put"},*/
+      {reason:"test reason", value: 11, date: "14:54:22 16.01.2020", name: "Michael Rutio", type: "put"},
         ],
         calls: [
-            // { type: "ems", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i.", time:"22:22:22", name: "Michael Rutio", id: 1, acceptedList: []},
+            { type: "ems", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i.", time:"22:22:22", name: "Michael Rutio", id: 1, acceptedList: []},
         ],
         finesList: [
-            /*      {id: 1, name: "Lex Anyway", reason: "just reason", price: 2000},
+            {id: 1, name: "Lex Anyway", reason: "just reason", price: 2000},
       {id: 2, name: "Lex Anyway", reason: "just reason", price: 2000},
       {id: 3, name: "Lex Anyway", reason: "just reason", price: 2000},
-      {id: 4, name: "Lex Anyway", reason: "just reason", price: 2000},*/
+      {id: 4, name: "Lex Anyway", reason: "just reason", price: 2000},
         ],
         wantedList: [
-            // {id: 2, name: "Lex Anyway", reason: "WANTED", time: 5},
+            {id: 2, name: "Lex Anyway", reason: "WANTED", time: 5},
         ],
         searchResult: [
-            // {id: 1, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, type:"wanted", time:11, price: 0},
-            // {id: 2, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, type:"wanted", time:11, price: 0},
-            // {id: 3, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, type:"wanted", time:11, price: 0},
-            // {id: 4, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, type:"wanted", time:11, price: 0},
-            // {id: 5, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, type:"wanted", time:11, price: 0},
-            // {id: 6, name: "Lex Anyway", reason: "fine", playerGuid: 99, type:"fine", time:0, price: 500},
-            // {id: 7, name: "Lex Anyway", reason: "fine", playerGuid: 99, type:"fine", time:0, price: 500},
-            // {id: 8, name: "Lex Anyway", reason: "fine", playerGuid: 99, type:"fine", time:0, price: 500},
-            // {id: 9, name: "Lex Anyway", reason: "fine", playerGuid: 99, type:"fine", time:0, price: 100},
-            // {id: 10, name: "Lex Anyway", reason: "fine", playerGuid: 99, type:"fine", time:0, price: 100},
+            {id: 1, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, type:"wanted", time:11, price: 0},
+            {id: 2, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, type:"wanted", time:11, price: 0},
+            {id: 3, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, type:"wanted", time:11, price: 0},
+            {id: 4, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, type:"wanted", time:11, price: 0},
+            {id: 5, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, type:"wanted", time:11, price: 0},
+            {id: 6, name: "Lex Anyway", reason: "fine", playerGuid: 99, type:"fine", time:0, price: 500},
+            {id: 7, name: "Lex Anyway", reason: "fine", playerGuid: 99, type:"fine", time:0, price: 500},
+            {id: 8, name: "Lex Anyway", reason: "fine", playerGuid: 99, type:"fine", time:0, price: 500},
+            {id: 9, name: "Lex Anyway", reason: "fine", playerGuid: 99, type:"fine", time:0, price: 100},
+            {id: 10, name: "Lex Anyway", reason: "fine", playerGuid: 99, type:"fine", time:0, price: 100},
         ],
         policeDb: [
-            /*     {id: 1, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, time:11, secret:0},
+            {id: 1, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, time:11, secret:0},
       {id: 2, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, time:11, secret:0},
       {id: 3, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, time:11, secret:0},
       {id: 4, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, time:11, secret:0},
@@ -498,14 +498,14 @@ const factionSettings = {
       {id: 13, name: "Lex Anyway", reason: "WANTED", playerGuid: 99, time:11, secret:0},
       {id: 14, name: "Lex Anyway", reason: "WANTED SECRET CASE", playerGuid: 99, time:11, secret:1},
       {id: 15, name: "Lex Anyway", reason: "WANTED SECRET CASE", playerGuid: 99, time:11, secret:1},
-      {id: 16, name: "Lex Anyway", reason: "WANTED SECRET CASE", playerGuid: 99, time:11, secret:1},*/
+      {id: 16, name: "Lex Anyway", reason: "WANTED SECRET CASE", playerGuid: 99, time:11, secret:1},
         ],
         searchDbResult: [
-            // {id: 16, name: "Lex Anyway", reason: "WANTED SECRET CASE", playerGuid: 99, time:11, secret:1},
+            {id: 16, name: "Lex Anyway", reason: "WANTED SECRET CASE", playerGuid: 99, time:11, secret:1},
         ],
         policeCase: {},
         prisonersList: [
-            // {name:"Lex Anyway", time:10, id: 99},
+            {name:"Lex Anyway", time:10, id: 99},
         ],
         vehicles: [
             { guid: 1, number: "12345678", title: "car1", price: 10000 },
@@ -524,7 +524,7 @@ const factionSettings = {
             },
         ],
         weazelNewsAds: [
-            /*      {
+            {
         playerId: 1,
         id: 1,
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Ris",
@@ -535,11 +535,11 @@ const factionSettings = {
         id: 1,
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Ris",
         phone: 123456,
-      },*/
+      },
         ],
         declinedCalls: [],
         uniform: [
-            /*
+            
   {
     type: "Головной убор",
     clothType: "hats",
@@ -566,7 +566,7 @@ const factionSettings = {
     clothType: "jacket",
     itemsList: [{ id: 9, title: "Галстук", isProp: 1, componentNumber: 7, drawable: 21, textureId: 0 }],
   },
-*/
+
         ],
         uniformKits: [],
         currentUniform: {},

@@ -100,12 +100,12 @@ export default{
             mp.trigger("cMisc-CallServerEvent", "sLogin-TryValidateCodeAndLogIn",JSON.stringify(sendData));
         },
         registrationPage(){
+            storage.setPage('registration');
 			mp.trigger("cSetPage", 'registration');
-		   //storage.setPage('registration'); // переделать !!! менять страницы в цефе ток через клиент
         },
         recoveryPage(){
+            storage.setPage('recovery');
 			mp.trigger("cSetPage", 'recovery');
-		   //storage.setPage('recovery'); // переделать !!! менять страницы в цефе ток через клиент
         },
         toggleInputType(){
             if(this.inputType === 'password'){

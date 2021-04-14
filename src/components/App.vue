@@ -14,7 +14,7 @@
 			</select>
 		</div>
     <cAudio></cAudio>
-    <pHUD v-show="hud"></pHUD>
+    <pHUD v-if="page === 'hud'"></pHUD>
     <pTestHUD v-if="showTestHud"></pTestHUD>
     <pProgress v-if="showProgressBar"></pProgress>
     <pAdminConsole v-if="adminConsole"></pAdminConsole>
@@ -128,7 +128,6 @@ import pNotification from "./misc/notification.vue";
 import pProgress from "./misc/progress.vue";
 import pAdminConsole from "./misc/adminConsole.vue";
 import pConsole from "./misc/console.vue";
-import pTestMenu from "./menu/testmenu.vue";
 import pInteractionMenu from "./player/interactionMenu.vue";
 import pConfirmationMenu from "./misc/confirmationDialog.vue";
 import pPassport from "./player/id-card.vue";
@@ -252,12 +251,11 @@ export default {
   name: "cef",
   data() {
     return {
-			selected: 'phone',
+			selected: '',
 			pages: [
-				'testMenu',
-				'passport',
+				// 'passport',
+        'hud',
 				'interactionMenu',
-				'factionSettingsAdmin',
 				'login',
 				'registration',
 				'recovery',
@@ -401,7 +399,6 @@ export default {
     pAdminConsole,
     pNotification,
     pConsole,
-    pTestMenu,
     pInteractionMenu,
     pConfirmationMenu,
     pPassport,
@@ -597,6 +594,11 @@ body {
 .wrapper {
   width: 100%;
   height: 100vh;
+  background: url(https://wallpaperscave.ru/images/original/18/10-13/games-grand-theft-auto-v-91590.jpg) no-repeat;
+  background-size: cover;
+}
+button,a{
+  cursor: pointer;
 }
 .button {
   background-color: #009900;
@@ -606,6 +608,7 @@ body {
   line-height: 25px;
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
 @font-face {
   font-family: "Century Gothic";

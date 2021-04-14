@@ -85,13 +85,13 @@ const Player = {
 		},
 		blackScreen: false,
 		captureData: {
-			/*isStarted: true,
+			isStarted: true,
 			title: "Захват территории №10",
 			attackName: "банда 1",
 			defenseName: "банда 2",
 			attackPlayers: 10,
 			defensePlayers: 20,
-			time: 120*/
+			time: 120
 		},
 		deathTime: 0,
 		increaseDeathTime: 0,
@@ -101,17 +101,17 @@ const Player = {
 			left: 0
 		},
 		fines: [
-			// {id:1 ,reason:"FINE REASON", price: 100},
-			// {id:2 ,reason:"FINE REASON", price: 100},
+			{id:1 ,reason:"FINE REASON", price: 100},
+			{id:2 ,reason:"FINE REASON", price: 100},
 		],
 		prisonTime: 0,
         prDecr: 0,
 		radioChannels: [
-			/*{freq: "ALL",players: []},
+			{freq: "ALL",players: []},
 			{freq: "GOV",players: []},
 			{freq: 70,players: [{guid:0, name:"Lex Anyway"}]},
 			{freq: 70.1,players: [{guid:0, name:"Lex asdasd"}]},
-			{freq: 70.2,players: []},*/
+			{freq: 70.2,players: []},
 		],
 		selectedRadioChannel: null,
 		mainData: {
@@ -124,15 +124,15 @@ const Player = {
 			job: "",
 		},
 		skills: {
-/*			carHack: 10,
+			carHack: 10,
 			addiction: 0,
 			fishing: 20,
-			farm: 100,*/
+			farm: 100,
 		},
 		showNametags: true,
 		taxes: {
 			vehicle: [
-			/*{
+			{
 				id: 1, 
 				money: 10, 
 				price: 100,
@@ -159,10 +159,10 @@ const Player = {
 				price: 100,
 				title: "CAR TITLE",
 				number: "12345678",
-			},*/
+			},
 			],
 			house: [
-				/*{
+				{
 					id: 1,
 					money: 15,
 					price: 10000,
@@ -171,11 +171,11 @@ const Player = {
 					id: 2,
 					money: 15,
 					price: 30000,
-				},*/
+				},
 			],
 			business: {
-				// money: 10,
-				// price:100
+				money: 10,
+				price:100
 			},
 		},
 		property: {
@@ -233,45 +233,44 @@ const Player = {
 			],
 			house: 
 				[
-				/*{id: 1,
-				price: 100000,
-				class: "econom",
-				lodger: 1,
-				maxCar: 10,},*/
-				/*{id: 1,
-				hotelTitle: "Hotel Title",
-				class: "hotel",
-				rentPrice: 400,}*/
-			],
+					{id: 1,
+					price: 100000,
+					class: "econom",
+					lodger: 1,
+					maxCar: 10,},
+					{id: 1,
+					hotelTitle: "Hotel Title",
+					class: "hotel",
+					rentPrice: 400,}
+				],
 			business: {
 				id: 1,
 				title: 'Title',
 			},
 		},
 		license: [
-			/*{title:"A",type:"driver",id:0},
+			{title:"A",type:"driver",id:0},
 			{title:"B",type:"driver",id:0},
 			{title:"C",type:"driver",id:0},
 			{title:"weapon",type:"weapon",id:0},
-			{title:"med",type:"med",id:0},*/
+			{title:"med",type:"med",id:0},
 		],
 		sellingData: {
 			id:1,
 			buyerGuid:1,
-            notice:""
+      notice:""
 		},
-        tacoSellData:  {
-		    },
-	    voiceState: false,
-	    cardNumber: "123456789012",
-	    codeSended: false,
-	    fortisCoin: 0,
-	    changeAppearence: false,
-	    vipStatus: false,
-	    isNewbie: false,
-	    micType: "default",
-	    dialogData: {
-	    	/*type: "goldenFish",
+    tacoSellData:  {},
+		voiceState: false,
+		cardNumber: "123456789012",
+		codeSended: false,
+		fortisCoin: 0,
+		changeAppearence: false,
+		vipStatus: false,
+		isNewbie: false,
+		micType: "default",
+		dialogData: {
+	    type: "goldenFish",
 			name: "George",
 			text: "Приветствую тебя, путник! Любишь рыбу ловить? Если поймаешь золотую рыбку - срочно неси мне! Я тебя за это очень хорошо отблагодарю.",
 			answers: [
@@ -289,7 +288,7 @@ const Player = {
 				},
 				{ text: "Я принёс тебе золотую рыбку", action: "sFishingGoldenFish" },
 			],
-			cam: { x: 900.7865600585938, y: 3618.0625, z: 32.82281494140625, rot: 185.5, dim: 0 },*/
+			cam: { x: 900.7865600585938, y: 3618.0625, z: 32.82281494140625, rot: 185.5, dim: 0 },
 		},
 		dialogPedId: 0,
 	    fishPrice: 0,
@@ -298,7 +297,7 @@ const Player = {
 	    echolotFish: false,
 	    echolotSound: false,
 	    questData: [
-	    	// { title: "Поговорить с лысым незнакомцем", icon: "question", reward: [{title:"100$", icon:"dollars"}], steps: [{ title: "Поговорить с лысым незнакомцем", complete: false, dark: false }] }
+	    	{ title: "Поговорить с лысым незнакомцем", icon: "question", reward: [{title:"100$", icon:"dollars"}], steps: [{ title: "Поговорить с лысым незнакомцем", complete: false, dark: false }] }
 	    ],
 	    registration: false,
 	    showLastQuest: true,
@@ -365,9 +364,9 @@ const Player = {
 		setPrisonTime(state, data) {
 			state.prisonTime = data;
 		},
-        setPrDecr(state, data) {
-            state.prDecr = data;
-        },
+		setPrDecr(state, data) {
+				state.prDecr = data;
+		},
 		setRadioChannels(state, data) {
 			state.radioChannels = data;
 		},
@@ -416,70 +415,70 @@ const Player = {
 		setSellingData(state, data) {
 			state.sellingData = data;
 		},
-        setTacoSellData(state, data) {
-            state.tacoSellData = data;
-        },
-        setVoiceState(state, data) {
-            state.voiceState = data;
-        },
-        setMicType(state, data) {
-            state.micType = data;
-        },
-        setCardNumber(state, data) {
-            state.cardNumber = data;
-        },
-        setCodeSended(state, data) {
-            state.codeSended = data;
-        },
-        setFortisCoin(state, data) {
-            state.fortisCoin = data;
-        },
-        setChangeAppearance(state, data) {
-            state.changeAppearence = data;
-        },
-        setVipStatus(state, data) {
-            state.vipStatus = data;
-        },
-        setPlayerNewbie(state, data) {
-            state.isNewbie = data;
-        },
-        setDialogData(state, data) {
-            state.dialogData = data;
-        },
-        setDialogPedId(state, data) {
-            state.dialogPedId = data;
-        },
-        setFishPrice(state, data) {
-            state.fishPrice = data;
-        },
-        setFishMargin(state, data) {
-            state.fishMargin = data;
-        },
-        setEcholot(state, data) {
-            state.echolot = data;
-        },
-        setEcholotFish(state, data) {
-            state.echolotFish = data;
-        },
-        setEcholotSound(state, data) {
+		setTacoSellData(state, data) {
+				state.tacoSellData = data;
+		},
+		setVoiceState(state, data) {
+				state.voiceState = data;
+		},
+		setMicType(state, data) {
+				state.micType = data;
+		},
+		setCardNumber(state, data) {
+				state.cardNumber = data;
+		},
+		setCodeSended(state, data) {
+				state.codeSended = data;
+		},
+		setFortisCoin(state, data) {
+				state.fortisCoin = data;
+		},
+		setChangeAppearance(state, data) {
+				state.changeAppearence = data;
+		},
+		setVipStatus(state, data) {
+				state.vipStatus = data;
+		},
+		setPlayerNewbie(state, data) {
+				state.isNewbie = data;
+		},
+		setDialogData(state, data) {
+				state.dialogData = data;
+		},
+		setDialogPedId(state, data) {
+				state.dialogPedId = data;
+		},
+		setFishPrice(state, data) {
+				state.fishPrice = data;
+		},
+		setFishMargin(state, data) {
+				state.fishMargin = data;
+		},
+		setEcholot(state, data) {
+				state.echolot = data;
+		},
+		setEcholotFish(state, data) {
+				state.echolotFish = data;
+		},
+		setEcholotSound(state, data) {
 			if (data) {
 				if (state.echolot) state.echolotSound = data;
 			} else {
 				state.echolotSound = data;
 			}
-        },
-        setQuestData(state, data) {
+		},
+		setQuestData(state, data) {
 			state.questData = data;
-        },
-        setRegistration(state, data) {
+		},
+		setRegistration(state, data) {
 			state.registration = data;
-        },
-        setShowLastQuest(state, data) {
+		},
+		setShowLastQuest(state, data) {
 			state.showLastQuest = data;
-        },
-        setCarRentId(state, data) {
+		},
+		setCarRentId(state, data) {
 			state.carRentId = data;
-        },
+		},
 	},
 	actions: {
 		setAuthData({ commit }, data) {
@@ -533,9 +532,9 @@ const Player = {
 		setPrisonTime({ commit}, data) {
 			commit('setPrisonTime', data)
 		},
-        setPrDecr({ commit}, data) {
-            commit('setPrDecr', data)
-        },
+		setPrDecr({ commit}, data) {
+			commit('setPrDecr', data)
+		},
 		setRadioChannels({ commit}, data) {
 			commit('setRadioChannels', data)
 		},
@@ -575,66 +574,66 @@ const Player = {
 		setSellingData({ commit}, data) {
 			commit('setSellingData', data);
 		},
-        setTacoSellData({ commit}, data) {
-            commit('setTacoSellData', data);
-        },
-        setVoiceState({ commit}, data) {
-            commit('setVoiceState', data);
-        },
-        setMicType({ commit}, data) {
-            commit('setMicType', data);
-        },
-        setCardNumber({ commit}, data) {
-            commit('setCardNumber', data);
-        },
-        setCodeSended({ commit}, data) {
-            commit('setCodeSended', data);
-        },
-        setFortisCoin({ commit}, data) {
-            commit('setFortisCoin', data);
-        },
-        setChangeAppearance({ commit}, data) {
-            commit('setChangeAppearance', data);
-        },
-        setVipStatus({ commit}, data) {
-            commit('setVipStatus', data);
-        },
-        setPlayerNewbie({ commit}, data) {
-            commit('setPlayerNewbie', data);
-        },
-        setDialogData({ commit}, data) {
-            commit('setDialogData', data);
-        },
-        setDialogPedId({ commit}, data) {
-            commit('setDialogPedId', data);
-        },
-        setFishPrice({ commit}, data) {
-            commit('setFishPrice', data);
-        },
-        setFishMargin({ commit}, data) {
-            commit('setFishMargin', data);
-        },
-        setEcholot({ commit}, data) {
-            commit('setEcholot', data);
-        },
-        setEcholotFish({ commit}, data) {
-            commit('setEcholotFish', data);
-        },
-        setEcholotSound({ commit}, data) {
-            commit('setEcholotSound', data);
-        },
-        setQuestData({ commit}, data) {
-            commit('setQuestData', data);
-        },
-        setRegistration({ commit}, data) {
-            commit('setRegistration', data);
-        },
-        setShowLastQuest({ commit}, data) {
-            commit('setShowLastQuest', data);
-        },
-        setCarRentId({ commit}, data) {
-            commit('setCarRentId', data);
-        },
+		setTacoSellData({ commit}, data) {
+				commit('setTacoSellData', data);
+		},
+		setVoiceState({ commit}, data) {
+				commit('setVoiceState', data);
+		},
+		setMicType({ commit}, data) {
+				commit('setMicType', data);
+		},
+		setCardNumber({ commit}, data) {
+				commit('setCardNumber', data);
+		},
+		setCodeSended({ commit}, data) {
+				commit('setCodeSended', data);
+		},
+		setFortisCoin({ commit}, data) {
+				commit('setFortisCoin', data);
+		},
+		setChangeAppearance({ commit}, data) {
+				commit('setChangeAppearance', data);
+		},
+		setVipStatus({ commit}, data) {
+				commit('setVipStatus', data);
+		},
+		setPlayerNewbie({ commit}, data) {
+				commit('setPlayerNewbie', data);
+		},
+		setDialogData({ commit}, data) {
+				commit('setDialogData', data);
+		},
+		setDialogPedId({ commit}, data) {
+				commit('setDialogPedId', data);
+		},
+		setFishPrice({ commit}, data) {
+				commit('setFishPrice', data);
+		},
+		setFishMargin({ commit}, data) {
+				commit('setFishMargin', data);
+		},
+		setEcholot({ commit}, data) {
+				commit('setEcholot', data);
+		},
+		setEcholotFish({ commit}, data) {
+				commit('setEcholotFish', data);
+		},
+		setEcholotSound({ commit}, data) {
+				commit('setEcholotSound', data);
+		},
+		setQuestData({ commit}, data) {
+				commit('setQuestData', data);
+		},
+		setRegistration({ commit}, data) {
+				commit('setRegistration', data);
+		},
+		setShowLastQuest({ commit}, data) {
+				commit('setShowLastQuest', data);
+		},
+		setCarRentId({ commit}, data) {
+				commit('setCarRentId', data);
+		},
 	},
 	getters: {
 		getAuthData: state => {
@@ -703,76 +702,76 @@ const Player = {
 		getSellingData: state => {
 			return state.sellingData;
 		},
-        getTacoSellData: state => {
-            return state.tacoSellData;
-        },
-        getVoiceState: state => {
-            return state.voiceState;
-        },
-        getCardNumber: state => {
-            return state.cardNumber;
-        },
-        getCodeSended: state => {
-            return state.codeSended;
-        },
-        getFortisCoin: state => {
-            return state.fortisCoin;
-        },
-        getChangeAppearance: state => {
-            return state.changeAppearence;
-        },
-        getVipStatus: state => {
-            return state.vipStatus;
-        },
-        getPlayerNewbie: state => {
-            return state.isNewbie;
-        },
-        getMicType: state => {
-            return state.micType;
-        },
-        getDialogData: state => {
-            return state.dialogData;
-        },
-        getDialogPedId: state => {
-            return state.dialogPedId;
-        },
-        getFishPrice: state => {
-            return state.fishPrice;
-        },
-        getFishMargin: state => {
-            return state.fishMargin;
-        },
-        getEcholot: state => {
-            return state.echolot;
-        },
-        getEcholotFish: state => {
-            return state.echolotFish;
-        },
-        getEcholotSound: state => {
-            return state.echolotSound;
-        },
-        getQuestData: state => {
-            return state.questData;
-        },
-        getRegistration: state => {
-            return state.registration;
-        },
-        getShowLastQuest: state => {
-            return state.showLastQuest;
-        },
-        getLastQuestData: state => {
-        	const lastQuest = state.questData[0];
-        	if (!lastQuest) return false;
+		getTacoSellData: state => {
+				return state.tacoSellData;
+		},
+		getVoiceState: state => {
+				return state.voiceState;
+		},
+		getCardNumber: state => {
+				return state.cardNumber;
+		},
+		getCodeSended: state => {
+				return state.codeSended;
+		},
+		getFortisCoin: state => {
+				return state.fortisCoin;
+		},
+		getChangeAppearance: state => {
+				return state.changeAppearence;
+		},
+		getVipStatus: state => {
+				return state.vipStatus;
+		},
+		getPlayerNewbie: state => {
+				return state.isNewbie;
+		},
+		getMicType: state => {
+				return state.micType;
+		},
+		getDialogData: state => {
+				return state.dialogData;
+		},
+		getDialogPedId: state => {
+				return state.dialogPedId;
+		},
+		getFishPrice: state => {
+				return state.fishPrice;
+		},
+		getFishMargin: state => {
+				return state.fishMargin;
+		},
+		getEcholot: state => {
+				return state.echolot;
+		},
+		getEcholotFish: state => {
+				return state.echolotFish;
+		},
+		getEcholotSound: state => {
+				return state.echolotSound;
+		},
+		getQuestData: state => {
+				return state.questData;
+		},
+		getRegistration: state => {
+				return state.registration;
+		},
+		getShowLastQuest: state => {
+				return state.showLastQuest;
+		},
+		getLastQuestData: state => {
+			const lastQuest = state.questData[0];
+			if (!lastQuest) return false;
 			const data = {
 				title: lastQuest.title,
 				icon: lastQuest.icon,
 				currentStep: lastQuest.steps[lastQuest.steps.length - 1].title,
 			};
-            return data;
-        },
-        getCarRentId: state => {
-            return state.carRentId;
-        },
+			return data;
+		},
+		getCarRentId: state => {
+			return state.carRentId;
+		},
 	}
 };
 

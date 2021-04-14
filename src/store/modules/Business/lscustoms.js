@@ -4,7 +4,7 @@ const lscustoms = {
 		secondaryColorDefault: { r: 0, g: 0, b: 0 },
 		neonColorDefault: { r: 0, g: 0, b: 0 },
 		vehicleMods: [
-			/*{
+			{
 				title: "Engine",
 				modType: 0,
 				modTypes: [
@@ -49,7 +49,7 @@ const lscustoms = {
 					{ itemName: "Bumper №3", modIndex: 2, price: 1000 },
 				],
 				selectedType: -1,
-			},*/
+			},
 		],
 		additionalPrice: {},
 	},

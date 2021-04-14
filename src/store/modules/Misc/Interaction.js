@@ -5,7 +5,7 @@ const Interaction = {
 			y: '50',
 		},
 		showDocument: {
-			/*guid: 10,
+			guid: 10,
 			id: 0,
 			n: 'name',
 			f: 'family',
@@ -16,12 +16,12 @@ const Interaction = {
 			creationDate: "2020-07-31T03:17:40.385Z",
 			factionID: 11,
 			job: 'taxi',
-			factionTitle: "FIB",*/
+			factionTitle: "FIB",
 		},
 		showLicense: [
-			/*{ id: 1, type: "driver", title: "B", dateFrom: "2016-04-30T01:19:45.000Z", dateTo: "2016-04-30T01:19:45.000Z" },
+			{ id: 1, type: "driver", title: "B", dateFrom: "2016-04-30T01:19:45.000Z", dateTo: "2016-04-30T01:19:45.000Z" },
 			{ id: 2, type: "driver", title: "A", dateFrom: "2016-04-30T01:19:45.000Z", dateTo: "2016-04-30T01:19:45.000Z" },
-			{ id: 3, type: "med", title: "A", dateFrom: "2016-04-30T01:19:45.000Z", dateTo: "2016-04-30T01:19:45.000Z" },*/
+			{ id: 3, type: "med", title: "A", dateFrom: "2016-04-30T01:19:45.000Z", dateTo: "2016-04-30T01:19:45.000Z" },
 		]
 	},
 	mutations: {

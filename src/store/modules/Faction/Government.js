@@ -1,7 +1,7 @@
 const Government = {
 	state: {
 		factions: [
-			/*{
+			{
 				id: 1,
 				title: "Los-Santos Police Department",
 				ranks: [
@@ -96,29 +96,29 @@ const Government = {
 					{ rank: 9, rankTitle: "Курсант9", payment: 1000 },
 					{ rank: 10, rankTitle: "Губернатор", payment: 1000 },
 				],
-			},*/
+			},
 		],
 		premiumList: [
-			/*{ id: 1, factionTitle: "Government", playerGuid: 1, suggestName: "Lex Anyway", playerName: "Test Test", reason: "premia reason text1", amount: 1000 },
+			{ id: 1, factionTitle: "Government", playerGuid: 1, suggestName: "Lex Anyway", playerName: "Test Test", reason: "premia reason text1", amount: 1000 },
 			{ id: 2, factionTitle: "Government", playerGuid: 1, suggestName: "Lex Anyway", playerName: "Test Test", reason: "premia reason text2", amount: 2000 },
 			{ id: 3, factionTitle: "Los Santos News", playerGuid: 1, suggestName: "Lex Anyway", playerName: "Test Test", reason: "premia reason text3", amount: 3000 },
-			{ id: 4, factionTitle: "Federal Investigation Bureau", playerGuid: 1, suggestName: "Lex Anyway", playerName: "Test Test", reason: "premia reason text4", amount: 5000 },*/
+			{ id: 4, factionTitle: "Federal Investigation Bureau", playerGuid: 1, suggestName: "Lex Anyway", playerName: "Test Test", reason: "premia reason text4", amount: 5000 },
 		],
 		servicesList: [
-			/*{ title: "Проезд на автобусе(Черный маршрут)", type: "busTicketPrice", data: "black", price: 10 },
+			{ title: "Проезд на автобусе(Черный маршрут)", type: "busTicketPrice", data: "black", price: 10 },
 			{ title: "Проезд на автобусе(Красный маршрут)", type: "busTicketPrice", data: "red", price: 10 },
-			{ title: "Проезд на автобусе(Синий маршрут)", type: "busTicketPrice", data: "blue", price: 10 },*/
+			{ title: "Проезд на автобусе(Синий маршрут)", type: "busTicketPrice", data: "blue", price: 10 },
 		],
 		govMoney: 0,
 		budgetLog: [
-			/*{ id: 1, type: "plus", title: "nazvanie dohoda1", value: 11230000, date: "2020-03-28T13:56" },
+			{ id: 1, type: "plus", title: "nazvanie dohoda1", value: 11230000, date: "2020-03-28T13:56" },
 			{ id: 2, type: "plus", title: "nazvanie dohoda2", value: 10012300, date: "2016-04-30T01:19:45.000Z" },
 			{ id: 3, type: "plus", title: "nazvanie dohoda3", value: 101000, date: "2016-04-30T01:19:45.000Z" },
 			{ id: 4, type: "plus", title: "nazvanie dohoda4", value: 100200, date: "2016-04-30T01:19:45.000Z" },
 			{ id: 5, type: "plus", title: "nazvanie dohoda5", value: 100, date: "2016-04-30T01:19:45.000Z" },
 			{ id: 6, type: "minus", title: "nazvanie rashoda1", value: 100, date: "2016-04-30T01:19:45.000Z" },
 			{ id: 7, type: "minus", title: "nazvanie rashoda2", value: 100, date: "2016-04-30T01:19:45.000Z" },
-			{ id: 8, type: "minus", title: "nazvanie rashoda3", value: 22100, date: "2016-04-30T01:19:45.000Z" },*/
+			{ id: 8, type: "minus", title: "nazvanie rashoda3", value: 22100, date: "2016-04-30T01:19:45.000Z" },
 		],
 		taxValues: [
 			{ type: "vehicle", title: "Транспортный налог", value: 1, percent: 0 },

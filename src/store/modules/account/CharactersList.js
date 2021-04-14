@@ -2,7 +2,7 @@ const CharactersList = {
 	state: {
 		characters: [{nFirst:'Name',nSecond:'Family',house:true,factionID:10,logOutMs:3600000},{nFirst:'Name2',nSecond:'Family'},{nFirst:'Name3',nSecond:'Family'}],
 		slots: [false,false],
-		selected: -1,
+		selected: 1,
 		accountLogin: "accountLogin",
 	},
 	mutations: {

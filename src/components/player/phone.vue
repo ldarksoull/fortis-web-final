@@ -1072,7 +1072,7 @@ export default {
             return this.formatDate(m.data[m.data.length - 1].time);
         },
         readSMS(key) {
-            mp.trigger("cMisc-CallServerEvent", "phoneLoadSMS", this.phoneSMS[key].number, this.phoneSMS[key].data.length);
+            // mp.trigger("cMisc-CallServerEvent", "phoneLoadSMS", this.phoneSMS[key].number, this.phoneSMS[key].data.length);
             this.msgListSelect = [];
 
             if (this.phoneSMS[key].unread) {

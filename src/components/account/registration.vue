@@ -175,6 +175,7 @@ export default{
         },
         mainPage(){
            storage.setCodeSended(false);
+           storage.setPage('login');
 		   mp.trigger("cSetPage", 'login');
         },
         verifyCode(){

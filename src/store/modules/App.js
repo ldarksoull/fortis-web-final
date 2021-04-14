@@ -47,7 +47,6 @@ const App = {
 			commit('setHud', boolean);
 		},
 		setProgress({ commit }, boolean) {
-			
 			commit('setProgress', boolean);
 		},
 		setProgressData({ commit }, data) {

@@ -61,7 +61,7 @@ export default{
 		},
         mainPage(){
            //this.$emit('event',['page','login']);
-		   //storage.setPage('login');
+		   storage.setPage('login');
 		   mp.trigger("cSetPage", 'login');
         },
         toggleInputType(){

@@ -2,33 +2,22 @@ const Phone = {
 	state: {
 		phoneNumber: 100000,
 		phoneBook:[
-			/*{name:'Misha',number:'666111'},
+			{name:'Misha',number:'666111'},
 			{name:'Misha2',number:'222532'},
 			{name:'Misha3',number:'332532'},
 			{name:'Misha4',number:'442532'},
 			{name:'Misha5',number:'552532'},
-			{name:'Misha6',number:'662532'},*/
+			{name:'Misha6',number:'662532'},
 		],
 		phoneSMS:[
-			/*{
+			{
 				number:'666111',
 				data:[
-					{type: 'to', msg: 'Здарова, ты где?',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'from', msg: 'Я в пд приедешь?',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'from', msg: 'Реще приезжай',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Ща приеду, разъебу всех!',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'from', msg: 'Ну ты где ебана рот!!! Мне уже очко бутылкой расковыряли!!!!!!!!!!!!!!',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Я в аварию попал',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Походу пизда тачке',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Походу пизда тачке',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Походу пизда тачке',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Походу пизда тачке',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Походу пизда тачке',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Походу пизда тачке',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Походу пизда тачке',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Походу пизда тачке',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'from', msg: 'Все забей, меня петухом уже сделали',time:'2020-04-29T19:04:57.000Z'},
-					]
+					{type: 'to', msg: 'Здрасьте я по объявлению',time:'2020-04-29T19:04:57.000Z'},
+					{type: 'to', msg: 'Куда подъехать?',time:'2020-04-29T19:04:57.000Z'},
+					{type: 'from', msg: 'На авторынок',time:'2020-04-29T19:04:57.000Z'},
+					{type: 'to', msg: 'Через 2 минуты буду',time:'2020-04-29T19:04:57.000Z'},
+				]
 			},
 			{
 				number:'772532',
@@ -36,19 +25,8 @@ const Phone = {
 					{type: 'to', msg: 'Здарова, ты где?',time:'2020-04-29T19:04:57.000Z'},
 					{type: 'from', msg: 'Я в пд приедешь?',time:'2020-04-29T19:04:57.000Z'},
 					{type: 'from', msg: 'Реще приезжай',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Ща приеду, разъебу всех!',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'from', msg: 'Ну ты где ебана рот!!! Мне уже очко бутылкой расковыряли!!!!!!!!!!!!!!',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Я в аварию попал',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Я в аварию попал',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Я в аварию попал',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Я в аварию попал',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Я в аварию попал',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Я в аварию попал',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Я в аварию попал',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'to', msg: 'Походу пизда тачке',time:'2020-04-29T19:04:57.000Z'},
-					{type: 'from', msg: 'Все забей, меня петухом уже сделали',time:'2020-04-29T19:04:57.000Z'},
 				]
-			}*/
+			}
 		],
 		phoneCall:'0',
 		phoneCallConfirm:false,
@@ -56,18 +34,18 @@ const Phone = {
 		alertSMS:false,
 		alertCall:false,
 		adsList: [
-			/*{text: "ad text1",phone:"123456"},
+			{text: "ad text1",phone:"123456"},
 			{text: "ad text2",phone:"123456"},
-			{text: "ad text3",phone:"123456"},*/
+			{text: "ad text3",phone:"123456"},
 		],
 		adNotif: true,
 		bgIndex: 0,
 		callLog: [
-			/*{number:'123456',type:"outgoing",time:'10:30'},
+			{number:'123456',type:"outgoing",time:'10:30'},
 			{number:'123456',type:"incoming",time:'10:30'},
-			{number:'123456',type:"missed",time:'10:30'},*/
+			{number:'123456',type:"missed",time:'10:30'},
 		],
-		blackList: [/*'123456','123123'*/],
+		blackList: ['123456','123123'],
 		phoneCallReject: false,
 	},
 	mutations: {
